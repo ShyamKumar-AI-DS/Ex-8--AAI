@@ -1,8 +1,8 @@
 
-<H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
-<H3>Aim:</H3> 
+# Implementation of Speech Recognition
+## Aim:
  To implement the conversion of live speech to text.<BR>
-<h3>Algorithm:</h3>
+## Algorithm:
 
 #### Name: Shyam Kumar A
 #### Reg No: 212221230098
@@ -20,8 +20,8 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	If successful, print the recognized text.<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
-<H3>Program:</H3>
-~~~
+## Program:
+```
 import speech_recognition as sr
 def record_audio():
     r=sr.Recognizer()
@@ -42,10 +42,10 @@ while True:
     print(text)
     if text=="stop" or text=="close" or text=="exit":
         exit(1)
-~~~
+```
 
 
-<H3> Output:</H3>
+## Output:
 
 ![py](https://github.com/21005688/Ex-8--AAI/assets/94747031/32047ee1-95cf-4d84-8417-1eecf5822458)
 
